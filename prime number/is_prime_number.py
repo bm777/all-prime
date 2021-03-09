@@ -56,8 +56,9 @@ if __name__ == '__main__':
     # test division by 3, 3, 7
     # print(by_3(71112))
     # print(by_2(71111))
-    print(by_7(10000200121227))
-    print(prob(10000200121227))
+    # print(by_7(10000200121227))
+    # print(prob(10000200121227))
+    print(is_prime(pow(2,32) - 2))
 
     # test of goldach conjecture
     # M = int( math.pow(10,7) )
