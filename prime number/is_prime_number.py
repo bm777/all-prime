@@ -3,7 +3,7 @@
 #################################################################################
 
 # This file is to know if a number is a prime number
-#   - test division by 3, 5, 7,
+#   - test division by 3, 5, 7
 #
 #
 #
