@@ -3,7 +3,7 @@
 #################################################################################
 
 # This file is to know if a number is a prime number
-#   - test division by 3
+#   - test division by 3, 5, 7,
 #
 #
 #
@@ -47,7 +47,6 @@ def pi(start=0, end=0):
             result.append(iter)
 
     return len(result)
-
 
 
 
