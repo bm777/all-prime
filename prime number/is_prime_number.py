@@ -38,6 +38,13 @@ def is_primeV2(n):
         if(n % i==0 or n % (i+2)): return False
         i += 6
 
+def aks(p):
+    if p==2:return True
+    c=1
+    for i in range(p//2+1):
+        c=c*(p-i)//(i+1)
+        if c%p:return False
+    return True
 
 
 def prob(n):
